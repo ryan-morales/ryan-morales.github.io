@@ -1,0 +1,24 @@
+h1.center{
+    font-family: Calibri;
+    font-size: 1.5cm;
+    text-align: center;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -280px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+p.center{
+    font-family: Calibri;
+    text-align: center;
+    left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -240px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
