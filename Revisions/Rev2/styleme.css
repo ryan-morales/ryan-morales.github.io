@@ -1,0 +1,91 @@
+body{
+    height: 100vh;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 40px;
+    font-family:'Comfortaa', cursive;
+}
+
+header{
+    /*border: 3px red solid;*/ /*border for sizing*/
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10%;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+li{
+    display: inline-block; /* remove line breaks before and after each list element to display them horizontally */
+    padding: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+a{
+    padding: 5px;
+    text-decoration: none;
+    color: grey;
+    font-size: 15px;
+}
+
+a:hover{
+
+    background: lightgrey;
+    color: white;
+}
+
+section{
+    /*border: 3px green solid;*/ /*border for sizing*/
+    
+    height: 60%;
+    margin: auto;
+    
+}
+
+.homegrid{
+    /*border: 2px blue solid;*/ /*border for sizing*/
+
+    height: 100%;
+    grid-template: 100% / 33% 33% 33%;
+    display: grid;
+}
+
+.box{
+    /*border: 2px red solid;*/ /*border for sizing*/
+}
+
+.a{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: lightgrey;
+}
+
+.b{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.c{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+footer{
+    /*border: 3px blue solid;*/ /*border for sizing*/
+
+    height: 15%;
+    text-align: center;
+    margin-top: 65px;
+}
+
