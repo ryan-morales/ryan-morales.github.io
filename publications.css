@@ -1,0 +1,80 @@
+section#publications{
+    background-color: #f9f9f9;
+    margin: 10px 0; /* Space between sections */
+    padding-top: 0.05px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    /*padding: 10px; /* Padding within each section */
+    border-radius: 8px; /* Rounded corners for sections */
+    border: 100%;
+    border-color: black;
+}
+
+section#publications h2{
+    border-bottom: 1px solid #001f3f62; /* Bottom border for section titles */
+    padding-bottom: 2px; /* Space below section titles */
+    color: #001f3fcc;
+    
+}
+
+/*Formatting for license enteries - Titles - START*/
+.pub-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left:10px;
+}
+
+.pub-title {
+    font-weight:100;
+    font-style: italic;
+    font-size: 75%;
+}
+
+.pub-details {
+    font-weight: normal;
+    font-size: 90%;
+    color:#001f3f62;
+    font-size: 75%;
+}
+/*Formatting for license enteries - Titles - END*/
+
+
+/*Formatting for license enteries - List of Responsibilities - START*/
+ul.pub{
+    list-style-type: none; /* Hide default bullets */
+    padding: 10;
+}
+
+li.pub-lvl1 {
+    display: flex;
+    align-items: flex-start; /* Aligns text with the icon */
+    
+    text-align: justify;
+    font-size: 15px;
+    line-height: 1.3;
+   
+    margin-bottom: 10px;
+
+}
+
+li.pub-lvl1::before {
+    content: "- ";
+    padding-right : 10px;
+    font-size: 80%;
+    margin-left: -10px;
+}
+
+/*hyperlink formatting*/
+a.pub-links{
+    color: black; /* Blue color for links */
+    text-decoration: none; /* Remove underline from links */
+
+}
+
+/*hyperlink hover formatting*/
+a.pub-links:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+/*Formatting for license enteries - List of Responsibilities - END*/

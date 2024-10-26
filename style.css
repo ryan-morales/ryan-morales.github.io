@@ -1,0 +1,126 @@
+* {
+    box-sizing: border-box; /* Ensure consistent box sizing */
+}
+
+html {
+    scroll-behavior: smooth; /* Smooth scrolling for anchor links */
+}
+
+body {
+    font-family: Arial, sans-serif; /* Font style for the body */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
+    height: 100vh; /* Full height of the viewport */
+    overflow: hidden; /* Prevent body scroll */
+}
+
+.container {
+    display: flex; /* Use flexbox for layout */
+    height: 100vh; /* Full height of the container */
+}
+
+.sidebar {
+    width: 375px; /* Fixed width of the sidebar */
+    background: #c9d3c9; /* Darker navy blue background with transparency */
+    color: white; /* Text color in sidebar */
+    padding: 20px; /* Padding around sidebar content */
+    text-align: center; /* Center align text */
+    height: 100vh; /* Full height for the sidebar */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    position: fixed; /* Fix sidebar in place */
+    top: 0;
+    bottom: 0;
+}
+
+.main-content {
+    margin-left: 375px; /* Leave space for the fixed sidebar */
+    padding: 20px; /* Padding around main content */
+    background: #2a1a0126; /* White background for main content */
+    height: 100vh; /* Full height of the viewport */
+    overflow-y: auto; /* Allow scrolling if content overflows */
+    width: calc(100% - 300px); /* Ensure full width minus sidebar */
+}
+
+header {
+    padding: 10px; /* Padding around header */
+    text-align: left; /* Align header text to the left */
+}
+
+
+/*Formatting for work experience entries - Titles - START*/
+.intro-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding-left:10px;
+}
+
+.intro-title {
+    font-weight: bold;
+}
+
+a.intro-btn{
+    font-weight: bold; /* Bold text */
+    color: black; /* Text color */
+    text-decoration: none; /* No underline */
+    text-align: center; /* Center the text */
+    line-height: 1.5; /* Control line height */
+    overflow: hidden; /* Hide overflow text */
+    text-decoration: none; /* Underline on hover for links */
+
+}
+/*Formatting for work experience entries - Titles - END*/
+
+
+
+
+
+h1 {
+    margin: 0; /* Remove margin from main title */
+}
+
+footer {
+    text-align: center; /* Center align footer text */
+    padding: 20px;
+}
+.footer-links{
+    color: #00000060;
+}
+
+/*footer hyperlink formatting*/
+a.footer-links{
+    text-decoration: none; /* Remove underline from links */
+
+}
+
+/*footer hyperlink hover formatting*/
+a.footer-links:hover {
+    text-decoration: underline; /* Underline on hover for links */
+}
+
+
+/* Responsive design for smaller screens */
+@media (max-width: 768px) { 
+    .sidebar {
+        width: 100%; /* Full width for sidebar on mobile */
+        position: relative; /* Position relative for mobile view */
+        height: auto; /* Auto height for sidebar on mobile */
+    }
+    .main-content {
+        margin-left: 0; /* Remove margin for main content on mobile */
+        width: 100%; /* Full width for main content on mobile */
+    }
+}
+
+@media (max-width: 1579px) {
+    .intro-header, .job-header, .lic-header, .ed-header, .pub-header{
+        flex-direction: column; /* Stack items vertically on smaller screens */
+    }
+}
+
+
+
+
+.section:hover, .side-title:hover{
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover for sections */
+}

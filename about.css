@@ -1,0 +1,34 @@
+section#about {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin: 10px 0; /* Space between sections */
+    padding-top: 0.05px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px; /* Rounded corners for sections */
+}
+
+section#about h2{
+    color:#001f3fcc;
+    border-bottom: 1px solid #001f3f62; /* Bottom border for section titles */
+}
+
+p.about-par{
+    font-size:15px;
+    text-align: justify;
+    line-height: 1.2;
+    padding-right: 100px;
+}
+
+br.about-breaks{
+    content: "";
+    margin: 5em;
+    display: block;
+    font-size: 24%;
+}
+
+section:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Darker shadow on hover for sections */
+}
+
