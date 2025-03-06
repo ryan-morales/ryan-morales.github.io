@@ -11,11 +11,9 @@
 
 .profile-image img {
     position: absolute; /* Position the image absolutely within the container */
-    top: 50%; /* Center the image vertically */
-    left: 50%; /* Center the image horizontally */
     width: 100%; /* Fill the width of the container */
-    height: 100%; /* Fill the height of the container */
-    transform: translate(-50%, -31%) scale(1.6); /* Center and zoom the image */
+    height: 105%; /* Fill the height of the container */
+    transform: translate(-50%, -2%) scale(1); /*Center and zoom the image */
     object-fit: cover; /* Cover the area while maintaining aspect ratio */
 }
 
@@ -35,7 +33,7 @@
     text-align: left;
     color: black;
     padding: 1px 0px 1px 20px;
-    margin: 20px 0;  
+    margin: 20px 0;
 }
 
 /*sidebar section titles formatting*/
